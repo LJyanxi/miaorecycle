@@ -1,0 +1,16 @@
+<!--pages/recycle/recycle.wxml-->
+<view class="recycle-bar">
+</view>
+<view class="recyclelist">
+  <view class="unrecycle">
+    <image src='http://thyrsi.com/t6/391/1539953712x-1404792849.png'></image>
+    <text>不可回收垃圾</text>
+  </view>
+  <view class="unrecycle">
+  <image src='http://thyrsi.com/t6/391/1539954597x-1566688526.png'></image>
+    <text>可回收垃圾</text>
+  </view>
+</view>
+<view class="big">
+	<text>呼叫回收</text>
+</view>

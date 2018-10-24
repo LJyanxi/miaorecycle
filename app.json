@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/recycle/recycle",
+    "pages/about/about",
+    "pages/message/message",
+    "pages/profile/profile",
+    "pages/sos/sos"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fcce02",
+    "navigationBarTitleText": "喵回收",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eeeeee"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/pages/assets/tabs/home.png",
+      "selectedIconPath": "/pages/assets/tabs/home-active.png"
+    },
+    {
+      "pagePath": "pages/message/message",
+      "text": "消息",
+      "iconPath": "/pages/assets/tabs/message.png",
+      "selectedIconPath": "/pages/assets/tabs/message-active.png"
+    },
+    {
+      "pagePath": "pages/profile/profile",
+      "text": "我的",
+      "iconPath": "/pages/assets/tabs/profile.png",
+      "selectedIconPath": "/pages/assets/tabs/profile-active.png"
+    }]
+  }
+}

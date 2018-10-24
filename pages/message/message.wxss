@@ -1,0 +1,33 @@
+/* pages/message/message.wxss */
+page{
+  background: #f1f1f1;
+}
+.ccc{
+  color: #ccc;
+}
+.card{
+  background-color:#fff;
+  border: 1rpx solid #ddd;
+  border-radius: 15rpx;
+  margin: 40rpx 20rpx;
+  padding: 20rpx 35rpx;
+  display: flex;
+  flex-direction: column;
+}
+.card-title1{
+  margin-bottom: 20rpx;
+}
+.card-date1{
+  border-bottom: 1rpx solid #ddd;
+  margin-bottom: 15rpx;
+  padding-bottom: 15rpx;
+}
+.card-trait1{
+  border-top: 1rpx solid #ddd;
+  margin-top: 15rpx;
+  padding-top: 15rpx;
+}
+.read1{
+  color: #ccc;
+  font-size: 12px;
+}

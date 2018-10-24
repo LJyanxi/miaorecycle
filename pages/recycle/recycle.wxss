@@ -1,0 +1,5 @@
+/* pages/recycle/recycle.wxss */
+.recyclelist image{
+	width: 380rpx;
+	height: 280rpx;
+}

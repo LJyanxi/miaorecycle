@@ -1,0 +1,20 @@
+/* pages/about/about.wxss */
+page{
+  background: #f1f1f1;
+}
+.about1{
+  background: #fff;
+  border: 1rpx solid #ccc;
+  border-radius: 15rpx;
+  margin: 50rpx 30rpx;
+  padding: 12rpx;
+}
+.title1{
+  border-bottom: 1rpx solid rgb(250, 67, 67);
+  margin-bottom: 15rpx;
+  padding-bottom: 15rpx;
+  font-size: 18px;
+}
+.content1{
+  margin-top: 15rpx;
+}

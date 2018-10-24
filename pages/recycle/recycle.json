@@ -1,0 +1,9 @@
+{
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fcce02",
+    "navigationBarTitleText": "我要回收",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eeeeee"
+  }
+}

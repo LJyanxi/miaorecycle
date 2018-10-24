@@ -1,0 +1,8 @@
+<!--pages/message/message.wxml-->
+<view class="card">
+    <text class="card-title1 fz18">喵回收创立</text>
+    <text class="card-date1 fz14 ccc">2018-10-20</text>
+    <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1540049672341&di=c6afb78c40fbcdecdb03759d14603ae7&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F1e30e924b899a9012e7dde1f16950a7b0208f54b.jpg' mode='aspectFill'></image>
+    <text class="card-trait1 fz14">所有的伟大,源于一个勇敢的开始</text>
+    <text class="read1">查看详情</text>
+</view>

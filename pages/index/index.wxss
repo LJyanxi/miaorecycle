@@ -1,0 +1,40 @@
+/**index.wxss**/
+.slide-image{
+  width: 750rpx;
+}
+.list{
+	display: flex;
+	flex-wrap: wrap;
+}
+.label{
+  color: #fff;
+  font-size: 19px;
+  padding: 10px 20px;
+}
+.w-list{
+	width: 40%;
+    height: 200rpx;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 15rpx 30rpx;
+    padding: 15rpx;
+    box-sizing: border-box;
+}
+.between{
+	display: flex;
+	justify-content: space-between;
+}
+.item{
+	align-self: flex-end;
+	color: #ffffff;
+}
+.recycle{
+	width: 85%;
+	height: 300rpx;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+	padding: 20rpx;
+	margin: 15rpx 30rpx;
+	box-sizing: border-box;
+	background-color: #468531;
+}

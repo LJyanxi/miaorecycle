@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<!-- 顶部轮播图 -->
+<swiper indicator-dots autoplay circular interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" mode="aspactFit"/>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 小分区栏目 -->
+<view class="list">
+  <view bindtap="about" class="w-list blue1 between">
+    <text>了解喵回收</text>
+    <text class="fa fa-handshake-o item fa-2x"></text>
+  </view>
+  <view bindtap="recycleOrders" class="w-list blue2 between">
+    <text>我的订单</text>
+    <text class="fa fa-bars item fa-2x"></text>
+  </view>
+  <view bindtap="payCode" class="w-list yellow1 between">
+    <text>客服热线</text>
+    <text class="fa fa-volume-control-phone item fa-2x"></text>
+  </view>
+  <view bindtap="customerService" class="w-list green1 between">
+    <text>付款码</text>
+    <text class="fa fa-qrcode item fa-2x"></text>
+  </view>
+</view>
+<!-- recycle -->
+<view class="recycle between">
+  <text>我要回收</text>
+  <view class="fa fa-recycle fa-3x item"></view>
+</view>
+
+
+
